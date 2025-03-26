@@ -1,29 +1,26 @@
-# .NET Core
-server/bin/
-server/obj/
-server/.vs/
-server/*.user
-server/appsettings.*.json
-!server/appsettings.Example.json
-
-# React
-client/node_modules/
-client/dist/
-client/build/
-client/.env.local
-client/.env.development.local
-client/.env.test.local
-client/.env.production.local
-client/npm-debug.log*
-client/yarn-debug.log*
-client/yarn-error.log*
+# OS generated files
+.DS_Store
+Thumbs.db
+*.swp
+*~
 
 # IDE files
-.vs/
-.vscode/
 .idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
 *.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+*.user
+*.sln.docstates
+
+# Logs
+*.log
+
+# Server-specific common ignores (duplicated from server/.gitignore for safety)
+**/bin/
+**/obj/
+**/appsettings.Development.json
+**/appsettings.*.json
+!**/appsettings.json
