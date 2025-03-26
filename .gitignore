@@ -1,0 +1,29 @@
+# .NET Core
+server/bin/
+server/obj/
+server/.vs/
+server/*.user
+server/appsettings.*.json
+!server/appsettings.Example.json
+
+# React
+client/node_modules/
+client/dist/
+client/build/
+client/.env.local
+client/.env.development.local
+client/.env.test.local
+client/.env.production.local
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*
+
+# IDE files
+.vs/
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
