@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("7a808b03-4f39-4441-9b77-7a39ba842800")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("IssueTracker.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+71978e92f119cdc9b43e8633a61c0723d375e9ea")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9ecf7bf4654fa5e0b57513ac72330007922e8502")]
 [assembly: System.Reflection.AssemblyProductAttribute("IssueTracker.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IssueTracker.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

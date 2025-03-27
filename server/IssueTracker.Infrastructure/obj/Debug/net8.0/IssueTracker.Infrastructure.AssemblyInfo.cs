@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("IssueTracker.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+71978e92f119cdc9b43e8633a61c0723d375e9ea")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9ecf7bf4654fa5e0b57513ac72330007922e8502")]
 [assembly: System.Reflection.AssemblyProductAttribute("IssueTracker.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("IssueTracker.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
